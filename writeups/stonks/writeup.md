@@ -1,0 +1,5 @@
+# Stonks [link](https://play.picoctf.org/practice/challenge/105)
+
+So, after reading previous write-ups to guide me to the solution, and figuring out how to utilize cyber chef, a website where you can perform multiple operations on strings. I learned that there is a specific vulnerability when printing out unformatted user input. It can lead to malicious format strings being passed into the printf function, that executes commands.
+
+An example is the string %x, if I pass in that string into printf, it doesn't have an argument specified to it (the second parameter), so it executes that command on the stack, causing it to reveal data from the stack. This was the exploitation that needed to be used. After figuring out how to properly get the stack data, decode it using cyberchef, swapping the endianness, which I haven't really dove into too much. There is big endianness and little endianness, big endianness stores the most significant byte (4 bits) at the end of the block. While little endianness stores the least significant byte (4 bits) at the end of the block.
