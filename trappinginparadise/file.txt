@@ -1,0 +1,5 @@
+root:$1$JgcFDliZ$ZIZdkgJ.xnaUBrBZSbDxL.:0:0:root:/root:/usr/bin/zsh
+karen:$1$EImme.sA$dxaxqbP8rphkRv.LDWUJA0:1003:1003:e,e,e,ee,e:/home/karen:/bin/bash
+vip:$1$SI/aHxuY$YaNGjV9fqbJojcQhmBSH30:1004:1004:s,s,s,s,s:/home/shrek:/bin/bash
+
+yainsecure07 password123

@@ -141,6 +141,9 @@ def check_key(key, username_trial):
 
     global key_full_template_trial
 
+    # username_trial = b'SCHOFIELD'
+    print('temp =', key, ' template = ', key_full_template_trial, len(key_full_template_trial), len(key))
+
     if len(key) != len(key_full_template_trial):
         return False
     else:
